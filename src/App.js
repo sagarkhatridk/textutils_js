@@ -59,7 +59,7 @@ function App() {
           <Route exact path="/about">
             <About />
           </Route>
-          <Route exact path="/">
+          <Route exact path="https://sagarkhatridk.github.io/textutils_js/">
             <TextForm showAlert={showAlert} heading="Enter Your Text To Analize" mode={mode}/>
           </Route>
         </Switch>
